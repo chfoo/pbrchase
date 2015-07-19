@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokémon Battle Revolution Announcer Soundboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="static/jquery.tagit.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<style>
+html, body {
+    background-color: #E1E1E1;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#messageContainer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    width: 100vw;
+    padding: 0.25em;
+    background-color: rgba(160, 210, 255, 0.75);
+}
+
+#audioPlayer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    visibility: hidden;
+    padding: 0.25em;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    width: 100vw;
+}
+
+#audioPlayerWhitespace {
+    height: 4em;
+}
+
+</style>
+<body>
+
+<noscript>
+    <p><strong>JavaScript is required to use this soundboard.</strong></p>
+</noscript>
+
+<div id="messageContainer">Loading...</div>
+
+<h2>Tools</h2>
+
+<h3>Sentence</h3>
+<ul id="sentenceBuilderTextbox" type="text"></ul>
+<button onclick="speakSentence()">Speak</button>
+
+<h2>Phrases</h2>
+
+<table>
+
+{% for slug, label in track_infos %}
+    {% if not slug.startswith('pk') %}
+        <tr>
+            <td>
+                <button class="trackPlayButton" onclick="speakSingle('{{ slug }}')" aria-label="Play">⏵</button>
+            </td>
+            <td>
+                <span class="trackLabel">{{ label or slug }}</span>
+            </td>
+        </tr>
+    {% endif %}
+{% endfor %}
+
+</table>
+
+<h2>Pokémon</h2>
+
+<table>
+
+{% for pokemon_number in range(1, 493 + 1) %}
+    {% set pokemon_number_slug = '{:03d}'.format(pokemon_number) %}
+    <tr>
+        <td>
+            {{ pokemon_number }}
+        </td>
+        <td>
+            {{ pokedex_map[pokemon_number].title() }}
+        </td>
+        <td>
+            {% for subtrack_num, label in [(1, '˧'), (2, '˥'), (4, '˧˥'), (5, '˩'), (3, 'is sent out')] %}
+                <button onclick="playTrack('pk{{ pokemon_number_slug }}_{{ subtrack_num }}')">{{ label }}</button>
+            {% endfor %}
+        </td>
+    </tr>
+{% endfor %}
+
+</table>
+
+<audio id="audioPlayer" controls preload="auto"></audio>
+<div id="audioPlayerWhitespace"></div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="static/tag-it.min.js"></script>
+<script>
+var audioPlayer = document.getElementById('audioPlayer');
+var messageContainer = document.getElementById('messageContainer');
+var sentenceBuilderTextbox = $('#sentenceBuilderTextbox');
+var sentenceQueue = [];
+
+var labelsMap = {
+    {% autoescape off %}
+    {% for slug, label in track_infos %}
+        {{ json.dumps(label) }}: {{ json.dumps(slug) }},
+    {% endfor %}
+    {% endautoescape %}
+};
+
+
+function playTrack(slug) {
+    audioPlayer.src='{{ sound_file_prefix }}' + slug + '.ogg';
+    audioPlayer.play();
+}
+
+function speakSentence() {
+    sentenceQueue = []
+    var labels = sentenceBuilderTextbox.tagit("assignedTags");
+
+    for (var i = 0; i < labels.length; i++) {
+        sentenceQueue.push(labelsMap[labels[i]]);
+    }
+
+    if (sentenceQueue.length == 0) {
+        alert("There aren't any valid fragments to speak.");
+        return;
+    };
+
+    speakNextQueue();
+}
+
+function speakNextQueue() {
+    if (sentenceQueue.length > 0) {
+        var slug = sentenceQueue.shift();
+        playTrack(slug);
+    }
+}
+
+function speakSingle(slug) {
+    sentenceQueue = [];
+    playTrack(slug);
+}
+
+
+$(document).ready(function() {
+    sentenceBuilderTextbox.tagit({
+        allowSpaces: true,
+        allowDuplicates: true,
+        singleFieldDelimiter: '|',
+        availableTags: $.map(labelsMap, function (value, key) { return key; }),
+        beforeTagAdded: function(event, ui) {
+            if (labelsMap[ui.tagLabel] === undefined) {
+                return false;
+            }
+        }
+    });
+});
+
+audioPlayer.addEventListener('ended', speakNextQueue);
+
+audioPlayer.style.visibility = 'visible';
+messageContainer.style.display = 'none';
+
+</script>
+</body>
+</html>
