@@ -2998,8 +2998,8 @@ tb_510m,protects against the attack
 tb_512m,protected itself from the attack
 tb_520m,evades the attack
 tb_522m,evades the attack
-tb_530m,still can't pull of a move
-tb_532m,still can't pull of a move
+tb_530m,still can't pull off a move
+tb_532m,still can't pull off a move
 tb_540,Both corners' moves fail.
 tb_550,The move fails.
 tb_552,It's attack missed.
