@@ -6,16 +6,16 @@ Quick Start
 
 To build the sound files:
 
-1. Grab the audio files from http://www.serebiiforums.com/showthread.php?439401-PBR-Announcer-Voice-Tracks-EXTRACTED!!! or from (todo: put an Archive.org link here)
+1. Grab the audio files from `<http://www.serebiiforums.com/showthread.php?439401-PBR-Announcer-Voice-Tracks-EXTRACTED!!!>`_ or from (todo: put an Archive.org link here)
 2. Install sox.
-3. `python3 batch_convert.py`
+3. ``python3 batch_convert.py``
 
 
 To build the HTML file:
 
-1. `pip3 install jinja`
-2. If needed, edit `generate_html.py` for the URL prefix of the sound files.
-3. `python3 generate_html.py myoutput.html`
+1. ``pip3 install jinja``
+2. If needed, edit ``generate_html.py`` for the URL prefix of the sound files.
+3. ``python3 generate_html.py myoutput.html``
 
 
 Credits
