@@ -216,8 +216,8 @@ h1b_147,And the opponent goes down too.
 h1b_150,"Oh, the attacker is taken down with Destiny Bond."
 h1b_160,"Oh, the attacker is caught in the Aftermath."
 h1b_170,It was an amazing attack sacrificing itself like that but it was the only one who went down.
-h1b_180,Its teammate was the only one going down from the attack.
-h1b_190,What's that about? The battle just started and a Pokémon is beaten by its own teammate?
+h1b_180,Its teammate was the only one to go down from the attack.
+h1b_190,What's that about? The battle just started and a Pokémon is being beaten up by its own teammate?
 h1b_200m,loses a Pokémon to an attack from its own teammate. What's going on here?
 h1b_200,The Blue Corner loses a Pokémon to an attack from its own teammate. What's going on here?
 h1b_210,Unbelievable. The Pokémon that just used the move went down.
@@ -2893,7 +2893,7 @@ sl_352,Can they withstand the next attack?
 sl_360,How far is this going to go?
 sl_370,The energy level of the fans in this Colosseum has been turned up to 11.
 sl_372,Both corners are in a tough spot.
-sl_390,The trainers' strategy will determine the outcome.
+sl_390,The trainers' strategies will determine the outcome.
 sl_400,Will the outcome be determined in the next turn?
 sl_410,Will the outcome be determined in the next turn?
 sl_420,When will it take up?
@@ -2984,7 +2984,7 @@ tb_392,cannot move
 tb_400m,has no Pokémon that can move
 tb_410m,still can't move
 tb_420m,still can't move
-tb_430,Oh. Why would it attack its own teammate?
+tb_430,Oh. Why would it attack its teammate?
 tb_440,It attacked itself again. That has got to hurt.
 tb_450,Oh-no. It attacked itself.
 tb_460,It missed the kick and hurt itself.
