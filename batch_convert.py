@@ -8,6 +8,9 @@ def main():
         output_filename = os.path.splitext(filename)[0] + '.ogg'
         subprocess.check_call(['sox', filename, output_filename])
 
+        output_filename = os.path.splitext(filename)[0] + '.mp3'
+        subprocess.check_call(['sox', filename, output_filename])
+
 
 if __name__ == '__main__':
     main()

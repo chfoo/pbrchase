@@ -110,6 +110,12 @@ var audioPlayer = document.getElementById('audioPlayer');
 var messageContainer = document.getElementById('messageContainer');
 var sentenceBuilderTextbox = $('#sentenceBuilderTextbox');
 var sentenceQueue = [];
+var extension = '.ogg';
+
+if (audioPlayer.canPlayType && audioPlayer.canPlayType('audio/ogg').replace(/no/, '') == '') {
+    extension = '.mp3';
+}
+
 
 var labelsMap = {
     {% autoescape off %}
@@ -121,7 +127,7 @@ var labelsMap = {
 
 
 function playTrack(slug) {
-    audioPlayer.src='{{ sound_file_prefix }}' + slug + '.ogg';
+    audioPlayer.src='{{ sound_file_prefix }}' + slug + extension;
     audioPlayer.play();
 }
 
