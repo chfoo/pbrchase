@@ -6,7 +6,7 @@ Quick Start
 
 To build the sound files:
 
-1. Grab the audio files from `<http://www.serebiiforums.com/showthread.php?439401-PBR-Announcer-Voice-Tracks-EXTRACTED!!!>`_ or from (todo: put an Archive.org link here)
+1. Grab the WAV audio files from `<http://www.serebiiforums.com/showthread.php?439401-PBR-Announcer-Voice-Tracks-EXTRACTED!!!>`_ or from `Archive.org <https://archive.org/details/PokemonBattleRevolutionAnnouncerAudio>`_.
 2. Install sox.
 3. ``python3 batch_convert.py``
 
