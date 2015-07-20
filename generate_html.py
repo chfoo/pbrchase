@@ -2,6 +2,8 @@ import argparse
 import csv
 import json
 import re
+import sys
+
 
 from jinja2 import Environment, FileSystemLoader
 
@@ -74,7 +76,10 @@ def new_track_infos():
                 label = '{} {}'.format(pokedex_map[pokemon_number].title(),
                                        pokemon_subtrack_map[subtrack])
 
-            track_infos.append((slug, label))
+            if label:
+                track_infos.append((slug, label))
+            else:
+                print('Ignored', slug, file=sys.stderr)
 
     return track_infos
 
