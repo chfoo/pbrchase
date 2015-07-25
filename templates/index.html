@@ -61,17 +61,15 @@ html, body {
 
 <table>
 
-{% for slug, label in track_infos %}
-    {% if not slug.startswith('pk') %}
-        <tr>
-            <td>
-                <button class="trackPlayButton" onclick="speakSingle('{{ slug }}')" aria-label="Play">⏵</button>
-            </td>
-            <td>
-                <span class="trackLabel">{{ label or slug }}</span>
-            </td>
-        </tr>
-    {% endif %}
+{% for slug, label in track_infos if not slug.startswith('pk') %}
+    <tr>
+        <td>
+            <button class="trackPlayButton" onclick="speakSingle('{{ slug }}')" aria-label="Play">⏵</button>
+        </td>
+        <td>
+            <span class="trackLabel">{{ label or slug }}</span>
+        </td>
+    </tr>
 {% endfor %}
 
 </table>
