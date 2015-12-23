@@ -40,6 +40,14 @@ html, body {
     height: 4em;
 }
 
+.trackSlug {
+    font-size: small;
+    color: grey;
+}
+
+.hidden {
+    display: none;
+}
 </style>
 <body>
 
@@ -57,6 +65,10 @@ html, body {
 <ul id="sentenceBuilderTextbox" type="text"></ul>
 <button onclick="speakSentence()">Speak</button>
 
+<h3>Settings</h3>
+
+<input id="showSlugsCheckbox" type="checkbox"><label for="showSlugsCheckbox">Show filename ID</label>
+
 <h2>Phrases</h2>
 
 <table>
@@ -68,6 +80,7 @@ html, body {
         </td>
         <td>
             <span class="trackLabel">{{ label or slug }}</span>
+            <span class="trackSlug hidden">{{ slug }}</span>
         </td>
     </tr>
 {% endfor %}
@@ -90,6 +103,7 @@ html, body {
         <td>
             {% for subtrack_num, label in [(1, '˧'), (2, '˥'), (4, '˧˥'), (5, '˩'), (3, 'is sent out')] %}
                 <button onclick="playTrack('pk{{ pokemon_number_slug }}_{{ subtrack_num }}')">{{ label }}</button>
+                <span class="trackSlug hidden">pk{{ pokemon_number_slug }}_{{ subtrack_num }}</span>
             {% endfor %}
         </td>
     </tr>
@@ -107,6 +121,7 @@ html, body {
 var audioPlayer = document.getElementById('audioPlayer');
 var messageContainer = document.getElementById('messageContainer');
 var sentenceBuilderTextbox = $('#sentenceBuilderTextbox');
+var showSlugsCheckbox = $('#showSlugsCheckbox');
 var sentenceQueue = [];
 var extension = '.ogg';
 
@@ -156,6 +171,16 @@ function speakSingle(slug) {
     sentenceQueue = [];
     playTrack(slug);
 }
+
+function showSlugs() {
+    if (showSlugsCheckbox.is(':checked')) {
+        $(".trackSlug").removeClass("hidden");
+    } else {
+        $(".trackSlug").addClass("hidden");
+    }
+}
+
+showSlugsCheckbox.change(showSlugs);
 
 
 $(document).ready(function() {
