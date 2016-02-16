@@ -1,6 +1,9 @@
 Pokémon Battle Revolution Announcer Soundboard
 ==============================================
 
+* To use the soundboard, visit https://chfoo.github.io/pbrchase/.
+* To report a mistake, use the Issues section.
+
 Quick Start
 ===========
 
