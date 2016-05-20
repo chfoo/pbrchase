@@ -22,16 +22,16 @@ ba182_0,Stargazer Colosseum – Masters Battle – Set 5
 ba184_0,Stargazer Colosseum – Masters Battle – Set 6
 ba186_0,Stargazer Colosseum – Masters Battle – Set 7
 ba188_0,Stargazer Colosseum – Masters Battle – Final Set
-ba200_0,Courtyard Colosseum – Survival Battle – Battle 1 – Can the challenger survive long enough to get a new record?
-ba210_0,Courtyard Colosseum – Survival Battle – Battle 1 – Can the challenger survive long enough to get a new record?
-ba290_0,The Colosseum battle is now at its final stage.
+ba200_0,Courtyard Colosseum – Survival Battle – Battle 1 – Can the Challenger survive long enough to get a new record?
+ba210_0,Courtyard Colosseum – Survival Battle – Battle 1 – Can the Challenger survive long enough to get a new record?
+ba290_0,The Colosseum battle is now at its final stage. A stronger opponent is going to appear.
 ba300_0,"The challenger, who's already come this far, is going to face their final opponent."
 ba305_0,"The strongest trainer in Pokétopia, the one who stands above the Colosseum Masters, is now entering."
 ba310_0,The winner of this battle will become the winner of the tournament. This one's important.
-ba320_0,The League Battle at the Colosseum is in its final match.
+ba320_0,The League Battle at the Magma Colosseum is in its final match.
 ba330_0,This is the tenth battle in Survival Battle. Here comes a fierce opponent. Let's see if the challenger can survive.
-ba340_0,The Survival Battle is entering its fiftieth battle. How many more battles can the challenger win?
-ba350_0,The Survival Battle is entering its record-breaking 100th battle. Let's hear it for the challenger and their Pokémon.
+ba340_0,The Survival Battle is entering its fiftieth battle. How many more battles can the Challenger win?
+ba350_0,The Survival Battle is entering its record-breaking 100th battle. Let's hear it for the Challenger and their Pokémon.
 ba360_0,
 ba360_1,
 ba360_2,
@@ -50,14 +50,14 @@ bb025_0_2,and from the Red corner
 bb025_0_3,such energy
 bb030_0,This is an important battle for both trainers.
 bb040_0,Both corners are full of energy so we're sure to see a great battle.
-bb050_0,They're ready to battle and are awaiting their trainer's orders.
-bb060_0,Both corners are so full of energy that there's no doubt this will be a great battle.
+bb050_0,They're ready to battle and are awaiting their trainers' orders.
+bb060_0,Both corners are so full of energy that there's no doubt this'll be a great battle.
 bb070_0,Wow. Giant Pokémon sure do make this Colosseum look tiny.
 bb080_0,Is it just me or is it getting a little chilly in here?
 bb090_0,The Colosseum is heating up as the spectators wait for the battle to begin.
 bb100_0,"From the dense fog of the Colosseum, the Pokémon appear."
 bb110_0,"Now, it's time for all-out combat."
-bb120_0,"The sight of Pokémon battling against a beautiful sunset, it's truely moving."
+bb120_0,"The sight of Pokémon battling against a beautiful sunset, it's truly moving."
 bb122_0,This ancient Colosseum will once again bear witness to history in the making.
 bb130_0,The Pokémon have appeared and not even the magma's heat can stop them.
 bb140_0,The relaxing waterfall seems to be heightening the Pokémon's concentration.
@@ -65,10 +65,10 @@ bb150_0,The once peaceful air is now turning thick with tension at the appearanc
 bb152_0,Little Pokémon are a fan favorite here at Sunny Park.
 bb154_0,"Illuminated by the beautiful neon light, an exciting battle is about to begin."
 bb156_0,"Lit by eerily beautiful moonlight, the Pokémon await their trainers' orders."
-bb158_0,Millions of stars flicker in the light as we stand on this meteorite. An exciting battle is about to begin in an world of illusion created by the Pokétopia Master.
+bb158_0,Millions of stars flicker in the night as we stand on this meteorite. An exciting battle is about to begin in an world of illusion created by the Pokétopia Master.
 bb160_0,The Pokémon are softly lit by the glow of the crystals.
 bb162_0,The Pokémon stand heroically against an inspiring view of Pokétopia at night.
-bb164_0,Thousands have gathered at the Colosseum located on the Main Street of Pokétopia to witness the big battle that is about to unfold.
+bb164_0,Thousands have gathered at this Colosseum located on the Main Street of Pokétopia to witness the big battle that is about to unfold.
 bc010_0,Which Pokémon is going to make the first move?
 bc020_0,Both trainers are carefully planning their strategy.
 cb_010m,suddenly calls their Pokémon back
@@ -76,12 +76,12 @@ cb_020m,calls their Pokémon back
 cb_030,It went down as soon as it came out.
 cb_040,The other Pokémon is also being shifted out.
 cb_050m,shifts out their Pokémon as well
-cb_060,It seems its physical condition is not so good.
+cb_060,It seems that its physical condition is not so good.
 cb_070,Its Healing Wish has come true and the Pokémon has recovered.
 cb_080,Lunar Dance recovers its health.
 cb_090,The second set of Pokémon have appeared.
 cb_092,The third set of Pokémon have appeared.
-cb_093,The forth set of Pokémon have appeared.
+cb_093,The fourth set of Pokémon have appeared.
 cb_094,The last set of Pokémon have appeared.
 cb_100,"With the appearance of Kyogre, it's now pouring rain in the Colosseum."
 cb_101,It's pouring rain in the Colosseum.
@@ -124,7 +124,7 @@ eb_121,It's a total victory for the Red Corner.
 eb_122m,has decided to give up
 eb_123,Both corners gave up. It's a draw.
 eb_124,The result is a draw.
-eb_130,The Blue Corner has lost an important first fight.
+eb_130,The Blue Corner lost an important first fight.
 eb_140,The Blue Corner is suffering consecutive defeats.
 eb_150,The Blue Corner really needed that win.
 eb_160,That's the third consecutive defeat for the Blue Corner.
@@ -144,7 +144,7 @@ eb_280,It's another scoring win for the Blue Corner.
 eb_290,"Finally, a scoring win for the Blue Corner."
 eb_292,This next fight has become very important for the Blue Corner.
 eb_293,The Blue Corner desperately needs a win. Even just one.
-eb_294,It's been nothing but draws for the Blue Corner.
+eb_294,It's been nothing but draws so far for the Blue Corner.
 eb_295,It's still neck and neck for the Blue Corner.
 eb_296,The Blue Corner has more wins than losses.
 eb_297,The Blue Corner has more losses than wins.
@@ -169,17 +169,17 @@ eb_460m,won the Tournament.
 eb_470,The Challenger won the League Battle.
 eb_480,The Challenger won the Tournament Battle.
 eb_490,The Blue Corner came through victorious after an intense battle. Let's hear it for the new champion of the Pokétopia Championship.
-eb_500,The Challenger has won the first set of the Masters Battle.
-eb_510,The Challenger has won the second set of the Masters Battle.
-eb_520,The Challenger has won the third set of the Masters Battle.
-eb_522,The Challenger has won the fourth set of the Masters Battle.
-eb_524,The Challenger has won the fifth set of the Masters Battle.
-eb_526,The Challenger has won the sixth set of the Masters Battle.
-eb_528,The Challenger has won the seventh set of the Masters Battle.
-eb_530,The Challenger has won the final set of the Masters Battle.
+eb_500,The Challenger won the first set of the Masters Battle.
+eb_510,The Challenger won the second set of the Masters Battle.
+eb_520,The Challenger won the third set of the Masters Battle.
+eb_522,The Challenger won the fourth set of the Masters Battle.
+eb_524,The Challenger won the fifth set of the Masters Battle.
+eb_526,The Challenger won the sixth set of the Masters Battle.
+eb_528,The Challenger won the seventh set of the Masters Battle.
+eb_530,The Challenger won the final set of the Masters Battle.
 eb_540,The Challenger was beaten all too soon.
 eb_550,The Challenger just couldn't beat the Colosseum Master. What a crushing defeat.
-eb_552,The Challenger won the fourth set of the Masters Battle.
+eb_552,The Pokétopia Master was too strong an opponent.
 eb_560,The Challenger was defeated. What a shame. Victory was so close.
 eb_570,The Challenger has lost.
 eb_580,"The Challenger was finally drained of their energy and defeated. However, they were able to set a new and unprecedented record."
@@ -190,8 +190,8 @@ eb_612,The Challenger couldn't take it and was beaten down.
 eb_614,"Although it was a close game, the Challenger just fell short."
 eb_616,"Based on the Tournament's rules, this draw will be decided by a rematch."
 h1b_020,A brilliant attack right from the start.
-h1b_022,Ugh!
-h1b_023,Ah!
+h1b_022,Ohh (Ugh)!
+h1b_023,Ahh!
 h1b_024,Bam!
 h1b_025,Bam.
 h1b_026,Big hit.
@@ -200,7 +200,7 @@ h1b_030,Crushing blow.
 h1b_040,It's down already.
 h1b_050,Taken out already.
 h1b_060,It couldn't take it. It's down.
-h1b_070,A huge amount of damage It's down.
+h1b_070,A huge amount of damage. It's down.
 h1b_080,Taken down by an intense blow.
 h1b_090,Taken down by an intense attack.
 h1b_100,It couldn't survive the second hit and goes down.
@@ -209,34 +209,34 @@ h1b_107,It went down.
 h1b_109,It is down.
 h1b_110m,lost both of their Pokémon
 h1b_120,But the attacker is down as well.
-h1b_130,But it's teammate is caught up in it too.
+h1b_130,But its teammate was caught up in it too.
 h1b_140,"Oh, the attacker has lost all of its health."
 h1b_145,But the opponent is down too.
 h1b_147,And the opponent goes down too.
 h1b_150,"Oh, the attacker is taken down with Destiny Bond."
-h1b_160,"Oh, the attacker is caught in the Aftermath."
-h1b_170,It was an amazing attack sacrificing itself like that but it was the only one who went down.
+h1b_160,"Oh, the attacker is caught in the aftermath."
+h1b_170,"It was an amazing attack, sacrificing itself like that, but it was the only one who went down."
 h1b_180,Its teammate was the only one to go down from the attack.
-h1b_190,What's that about? The battle just started and a Pokémon is being beaten up by its own teammate?
+h1b_190,What's that about? The battle's just started and a Pokémon is being beaten up by its own teammate?
 h1b_200m,loses a Pokémon to an attack from its own teammate. What's going on here?
 h1b_200,The Blue Corner loses a Pokémon to an attack from its own teammate. What's going on here?
 h1b_210,Unbelievable. The Pokémon that just used the move went down.
 h1b_220,Such irony. Its own teammate was the only one to go down.
 h1b_230,Ouch. That was rather self-destructive.
-h1b_240m,went down but left a parting gift.
+h1b_240m,went down but it left a parting gift.
 h1b_250,taken down by Healing Wish
 h1b_260,taken down by Lunar Dance
 h1l_010m,is suffering massive damage
-h1l_020_0,That just goes to show ya. You'll never know what will happen at a Pokémon battle.
+h1l_020_0,That just goes to show ya. You never know what will happen at a Pokémon battle.
 h1l_020_1,I'll bet the trainer wasn't expecting that.
-h1l_250,Its Final Wish has been passed to the next Pokémon.
+h1l_250,Its final wish has been passed to the next Pokémon.
 h2b_010,The count of Perish Song reached zero.
 h2b_020,Oh. It just couldn't take the damage from the Sandstorm.
 h2b_030,taken out by the avalanche of falling hail
-h2b_040,"It's Dry Skin couldn't withstand the Strong Sunlight. Now, it's all dried out."
-h2b_050,Solar Power worked against it? It's gotta be because of the Strong Sunlight.
+h2b_040,"Its dry skin couldn't withstand the strong sunlight. Now, it's all dried out."
+h2b_050,Solar Power worked against it? It's gotta be because of the strong sunlight.
 h2b_060,The damage from poison finished it.
-h2b_070,It's down to the damage from poison.
+h2b_070,It's down to damage from poison.
 h2b_080,It's all burned up now. The damage from its burn was just too much.
 h2b_090,It's down due to damage from its burn.
 h2b_100,Oh no. It went down before it could wake from its nightmare.
@@ -254,7 +254,7 @@ h2b_200,It was sapped by Leech Seed and taken down.
 h2b_210,It's down. Future Sight arrives after everyone had forgotten.
 h2b_220,The Doom Desire has been granted. It's down.
 h2b_230,
-kb_010,has its Wish come true and recovered health
+kb_010,had its wish come true and recovered health
 kb_020,suffers from poison
 kb_030,The damage caused by poison is slowly increasing.
 kb_040,suffers from its burn
@@ -264,7 +264,7 @@ kb_070,has its health sapped by Leech Seed
 kb_080,got so tried that it's now confused.
 kb_090,seems to be falling asleep
 kb_100,dozes off
-kb_110,recovered from its Status problem with help from an item
+kb_110,recovered from its status problem with the help from an item
 kb_120,Attacked by Future Sight. Didn't see that coming.
 kb_130,The count of Perish Song falls by one.
 kb_132,The countdown of the Perish Song has begun.
@@ -283,12 +283,12 @@ la010_1,It's gonna be interesting to see how this turns out.
 la010_2,It's all eyes on the Challengers.
 la030_0,"surrounded by cascading water, the Battle is about to begin"
 la030_1,The sound of falling water echos in the air.
-la040_0,This elegant and colorful Colosseum is filled with excitement
+la040_0,This elegant and colorful Colosseum is filled with excitement.
 la050_0,The air is starting to feel tense in this underground cave.
 la060_0,A battle is about to unfold at this popular picnic place.
 la080_0,"Surrounded by magma, a superheated battle is about to begin."
 la090_0,"As the sun sets on the horizon, a battle is about to begin."
-la092_0,The courtyard of this peaceful castle is about to become an all out battlefield.
+la092_0,The courtyard of this peaceful castle is about to become an all-out battlefield.
 la094_0,Only the best Pokémon trainers can participate in this grand and decisive battle.
 la096_0,The battle of the century quietly begins.
 la100_0,Can the Challenger win once more?
@@ -2781,18 +2781,18 @@ sb_070m,is already poisoned
 sb_080m,already has a Pokémon sleeping
 sb_082m,already has Pokémon sleeping
 sb_090m,had their Pokémon frozen solid after the battle began
-sb_100m,has already been burned and the battle is just begining
-sb_110,"Pokémon are already suffering from Status problems, one after an other, in this sudden and intense battle."
+sb_100m,has already been burned and the battle is just beginning
+sb_110,"Pokémon are already suffering from status problems, one after another, in this sudden and intense battle."
 sb_120,The situation is a bit of a stalemate.
 sb_130,Both are carefully examining their opponent.
 sb_140,"Finally, things are starting to happen."
 sb_150,"Finally, this battle is getting underway."
 sb_160,The situation has dramatically changed.
 sb_170,The battle has taken a drastic turn.
-sb_180,The was an unexpected turn of events.
-sb_190,The battle's outcome is still up in the air. Who will reach victory first?
+sb_180,That was an unexpected turn of events.
+sb_190,The battle's outcome is still up in the air. Who will reach for victory first?
 sb_200,Not much has happened. Who will change things up?
-sb_210,Both corners are carefully examining their oponent.
+sb_210,Both corners are carefully examining their opponent
 sb_220m,continues to do very well
 sb_230m,It's a tough situation for the Blue Corner.
 sb_230r,It's a tough situation for the Red Corner.
@@ -2800,7 +2800,7 @@ sb_240m,currently leads
 sb_250m,faces a tough situation
 sb_260m,has the lead when comparing the number of remaining Pokémon
 sb_270m,trails slightly when comparing the number of remaining Pokémon
-sb_280m,evened up the amount of remaining of Pokémon despite being at an disadvantage
+sb_280m,evened up the amount of remaining of Pokémon despite being at a disadvantage
 sb_290,"In terms of the number of remaining Pokémon, it's an even 50-50."
 sb_300,Neither Corner has made a decisive attack yet.
 sb_310,The battle rages on.
@@ -2829,7 +2829,7 @@ sb_520,The sun is scorching the Colosseum again.
 sb_530,It's hailing in the Colosseum again.
 sb_540,The Colosseum is burning with excitement.
 sb_550,The air in the Colosseum is tense and charged.
-sb_560,The mood in the Colosseum has become somewhat unsettling
+sb_560,The mood in the Colosseum has become somewhat unsettling.
 sb_570,A chilling breeze can be felt in the Colosseum.
 sb_580,A rotten stench is filling the Colosseum.
 sb_590,A pleasant scent is drifting through the air in Colosseum.
@@ -2848,23 +2848,23 @@ sb_680,The Pokémon are awaiting their trainers' direction.
 sb_690,The crowd is holding their breath in anticipation of the trainers' next move.
 sl_010,"However, this battle is just getting started."
 sl_012,But there is always a chance of a comeback.
-sl_030,Can they find a way out of this predicament.
+sl_030,Can they find a way out of this predicament?
 sl_060m,seems to have the advantage right now
-sl_070,That's going to be trouble if this becomes a drawn-out battle.
+sl_070,That's gonna be trouble if this becomes a drawn-out battle.
 sl_080,Everyone is concentrated on the trainers' next move.
 sl_082,I wonder how this going to affect the battle.
 sl_090,"If this continues, the result will become detrimental."
 sl_092,Everyone is concentrated on the trainers' next move.
 sl_100,That's going to be trouble if this becomes a drawn-out battle.
 sl_110,Everyone is concentrated on the trainers' next move.
-sl_120,It's a mental tug-of-war as they anticipate each others' move.
+sl_120,It's a mental tug-of-war as they anticipate each other's move.
 sl_140m,Will there be any sort of decisive action from the Blue Corner?
 sl_140r,Will there be any sort of decisive action from the Red Corner?
 sl_142m,needs to strike back
 sl_150m,Is there going to be any decisive action from the Blue Corner?
 sl_150r,Is there going to be any decisive action from the Red Corner?
 sl_152m,needs to strike back
-sl_160,The battle has taken a u-turn.
+sl_160,The battle has taken a U-turn.
 sl_170m,Can the advantage be maintained by the Blue Corner?
 sl_170r,Can the advantage be maintained by the Red Corner?
 sl_172m,Is there going to be a comeback for the Blue Corner?
@@ -2873,7 +2873,7 @@ sl_180,It's a tough world.
 sl_220,But can they finish this off?
 sl_230,Is there a secret plan to turn the tables?
 sl_240,Can they end this quickly?
-sl_250,They're going to need to find a way out of this.
+sl_250,They're gonna need to find a way out of this.
 sl_260,But we still can't predict the outcome of the battle.
 sl_262,But the battle has just begun.
 sl_270,But we still can't predict the outcome of the battle.
@@ -2952,7 +2952,7 @@ tb_212,A rally of light attacks.
 tb_220,Multiple hits. It keeps dealing damage.
 tb_230,It hit two Pokémon at once.
 tb_240,An intense attack. The teammate was also hit.
-tb_250,An intense attack has launched with the helping-hand of another Pokémon.
+tb_250,An intense attack has launched with the helping hand of another Pokémon.
 tb_260,Oops. That attack was bounced right back.
 tb_262,Uh-oh. The attack goes right back to the attacker.
 tb_270,What an impressive attack.
@@ -2975,9 +2975,9 @@ tb_370m,The Pokémon in the Blue Corner is still sleeping.
 tb_370r,The Pokémon in the Red Corner is still sleeping.
 tb_371,won't wake up
 tb_372,won't wake up
-tb_380m,can't move to a previously used attack
-tb_381,can't move to a previously used attack
-tb_382,can't move to a previously used attack
+tb_380m,can't move due to a previously used attack
+tb_381,can't move due to a previously used attack
+tb_382,can't move due to a previously used attack
 tb_390m,cannot move
 tb_391,cannot move
 tb_392,cannot move
@@ -2986,10 +2986,10 @@ tb_410m,still can't move
 tb_420m,still can't move
 tb_430,Oh. Why would it attack its teammate?
 tb_440,It attacked itself again. That has got to hurt.
-tb_450,Oh-no. It attacked itself.
+tb_450,Oh no. It attacked itself.
 tb_460,It missed the kick and hurt itself.
 tb_470m,restored its health
-tb_480m,restored its health
+tb_480m,restored its health and feels the relief
 tb_490m,keeps gaining stats
 tb_492m,keeps gaining stats
 tb_500m,The Blue Corner attacks.
@@ -3002,7 +3002,7 @@ tb_530m,still can't pull off a move
 tb_532m,still can't pull off a move
 tb_540,Both corners' moves fail.
 tb_550,The move fails.
-tb_552,It's attack missed.
+tb_552,Its attack missed.
 tb_554,That was a failure.
 tb_556,The move can't hit the opponent.
 tb_560,The substitute appeared.
@@ -3011,7 +3011,7 @@ tb_571,hit
 tb_610,transformed
 tb_620,It's a Heart Swap. Any stat changes are about to be swapped.
 tb_630,falls asleep because of Dark Void
-tb_640,Oh-no. It soaked up the Liquid Ooze.
+tb_640,Oh no. It soaked up the Liquid Ooze.
 tb_650,It's twisting the dimensions in the Colosseum.
 tb_660,The twisted dimensions have been restored.
 tb_670,First strike.
@@ -3036,7 +3036,7 @@ tb_825,Ah. It was poisoned.
 tb_830,became badly poisoned.
 tb_835,Ow. It was badly poisoned.
 tb_840,became frozen solid
-tb_845,Burr. It was frozen solid.
+tb_845,Brr. It was frozen solid.
 tb_850,just got burned
 tb_855,It just got burned.
 tb_860,became confused.
@@ -3066,7 +3066,7 @@ tb_926,Its special defense fell.
 tb_928,There's no more effect.
 tb_930,That stat won't go any higher.
 tb_932,That stat won't go any lower.
-tb_951,Beh!
+tb_951,Bam (beh)!
 tb_952,Solid hit.
 tb_953,Ooh!
 tb_954,Oh!
@@ -3084,7 +3084,7 @@ tl_230,That dealt some damage too.
 tl_270,That dealt some massive damage.
 tl_290,But this is not a favorable matchup.
 tl_295,But rain cuts its effectiveness.
-tl_297,But Strong Sunlight drops its effectiveness.
+tl_297,But strong sunlight drops its effectiveness.
 tl_430,Is this part of the plan?
 tl_432,Why would they fight each other?
 tl_500,But the target Pokémon is in the air. The attack missed.
@@ -3129,7 +3129,7 @@ wz_221k,Set aflame by Sacred Fire.
 wz_222k,Magnitude shakes the ground.
 wz_223k,Beaten down by Dynamic Punch.
 wz_224k,Pierced by Mega Horn.
-wz_243k,Mirror Coat echos back.
+wz_243k,Mirror Coat echoes back.
 wz_247k,Shadow Ball hits.
 wz_257k,Burned by Heat Wave.
 wz_264k,Slammed by Focus Punch.
@@ -3142,7 +3142,7 @@ wz_307k,Immolated by Blast Burn.
 wz_308k,Deluged by Hydro Cannon.
 wz_315k,Cooked by Overheat.
 wz_318k,Hit by Silver Wind.
-wz_323k,Drenched by Water Sprout.
+wz_323k,Drenched by Water Spout.
 wz_329k,Sheer Cold delivers chilling misery.
 wz_330k,Splashed by Muddy Water.
 wz_332k,Aerial Ace hits.
@@ -3170,7 +3170,7 @@ wz_438k,Lashed by Power Whip.
 wz_439k,Demolished by Rock Wrecker.
 wz_441k,Hit by Gunk Shot.
 wz_444k,Sliced by Stone Edge.
-wz_449k,Judgement has been dealt.
+wz_449k,Judgment has been dealt.
 wz_452k,Pounded by Wood Hammer.
 wz_457k,Slammed by Head Smash.
 wz_459k,Ripped by Roar of Time.
@@ -3189,7 +3189,7 @@ xb_070,The Blue Corner has two consecutive losses.
 xb_080,One win and one loss. It's all even now.
 xb_090,The Blue Corner now has two wins and one loss.
 xb_100,The Blue Corner has lost this round. They have two wins and one loss.
-xb_110,It's a two wins and two losses. A breathtakingly close fight.
+xb_110,It's at two wins and two losses. A breathtakingly close fight.
 xb_120,The first round's a tie.
 xb_130,Another draw.
 xb_140,Another draw. It's still tied.
