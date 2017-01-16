@@ -2864,7 +2864,7 @@ sl_142m,needs to strike back
 sl_150m,Is there going to be any decisive action from the Blue Corner?
 sl_150r,Is there going to be any decisive action from the Red Corner?
 sl_152m,needs to strike back
-sl_160,The battle has taken a U-turn.
+sl_160,The battle has taken a new turn.
 sl_170m,Can the advantage be maintained by the Blue Corner?
 sl_170r,Can the advantage be maintained by the Red Corner?
 sl_172m,Is there going to be a comeback for the Blue Corner?
@@ -2960,7 +2960,7 @@ tb_272,A harsh blow.
 tb_280,A perfect shot.
 tb_290,An impressive move.
 tb_300m,deals out multiple hits
-tb_302,successively hit multiple times
+tb_302,successfully hit multiple times
 tb_310,That's a hit this time.
 tb_320,This is the only thing it can do.
 tb_330,A beautiful attack.
@@ -3128,7 +3128,7 @@ wz_218k,Hit by Frustration.
 wz_221k,Set aflame by Sacred Fire.
 wz_222k,Magnitude shakes the ground.
 wz_223k,Beaten down by Dynamic Punch.
-wz_224k,Pierced by Mega Horn.
+wz_224k,Pierced by Megahorn.
 wz_243k,Mirror Coat echoes back.
 wz_247k,Shadow Ball hits.
 wz_257k,Burned by Heat Wave.
