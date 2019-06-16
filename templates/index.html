@@ -33,7 +33,7 @@ html, body {
     padding: 0.25em;
     background-color: rgba(0, 0, 0, 0.75);
     text-align: center;
-    width: 100vw;
+    width: 100%;
 }
 
 #audioPlayerWhitespace {
@@ -66,20 +66,33 @@ html, body {
 <h3>Settings</h3>
 
 <input id="showSlugsCheckbox" type="checkbox"><label for="showSlugsCheckbox">Show filename ID</label>
+<br>
+<label for="showSlugsCheckbox">Language: </label>
+<select id="languageSelect">
+    <option value="en">English</option>
+    <option value="de">German</option>
+    <option value="es">Spanish</option>
+    <option value="fr">French</option>
+    <option value="it">Italian</option>
+</select>
 
-<p><a href="https://github.com/chfoo/pbrchase/issues">Report mistakes</a>, <a href="https://github.com/chfoo/pbrchase">Source code</a></p>
+<p><a href="https://github.com/chfoo/pbrchase/issues">Report mistakes / submit transcriptions</a>, <a href="https://github.com/chfoo/pbrchase">Source code</a></p>
 
 <h2>Phrases</h2>
 
 <table>
 
-{% for slug, label in track_infos if not slug.startswith('pk') %}
+{% for slug, labels in track_infos if not slug.startswith('pk') %}
     <tr>
         <td>
             <button class="trackPlayButton" onclick="speakSingle('{{ slug }}')" aria-label="Play">⏵</button>
         </td>
         <td>
-            <span class="trackLabel">{{ label or slug }}</span>
+            <span class="trackLabel-en">{{ labels.get('en') or slug }}</span>
+            <span class="trackLabel-de">{{ labels.get('de') or '{}⧚{}⧛'.format('de', labels.get('en') or slug) }}</span>
+            <span class="trackLabel-es">{{ labels.get('es') or '{}⧚{}⧛'.format('es', labels.get('en') or slug) }}</span>
+            <span class="trackLabel-fr">{{ labels.get('fr') or '{}⧚{}⧛'.format('fr', labels.get('en') or slug) }}</span>
+            <span class="trackLabel-it">{{ labels.get('it') or '{}⧚{}⧛'.format('it', labels.get('en') or slug) }}</span>
             <span class="trackSlug hidden">{{ slug }}</span>
         </td>
     </tr>
@@ -122,8 +135,10 @@ var audioPlayer = document.getElementById('audioPlayer');
 var messageContainer = document.getElementById('messageContainer');
 var sentenceBuilderTextbox = $('#sentenceBuilderTextbox');
 var showSlugsCheckbox = $('#showSlugsCheckbox');
+var languageSelect = $('#languageSelect');
 var sentenceQueue = [];
 var extension = '.ogg';
+var language = 'en';
 
 if (audioPlayer.canPlayType && audioPlayer.canPlayType('audio/ogg').replace(/no/, '') == '') {
     extension = '.mp3';
@@ -132,15 +147,26 @@ if (audioPlayer.canPlayType && audioPlayer.canPlayType('audio/ogg').replace(/no/
 
 var labelsMap = {
     {% autoescape off %}
-    {% for slug, label in track_infos %}
-        {{ json.dumps(label) }}: {{ json.dumps(slug) }},
+    {% for slug, labels in track_infos %}
+        {% for language, label in labels.items() %}
+            {% if label %}
+                {{ json.dumps(label) }}: {{ json.dumps(slug) }},
+            {% endif %}
+        {% endfor %}
     {% endfor %}
     {% endautoescape %}
 };
 
+function changeLanguage(newLanguage) {
+    language = newLanguage;
+
+    ['en', 'de', 'es', 'fr', 'it'].forEach(function (item, index) {
+        $('.trackLabel-' + item).css('display', item == language ? 'block' : 'none');
+    });
+}
 
 function playTrack(slug) {
-    audioPlayer.src='{{ sound_file_prefix }}' + slug + extension;
+    audioPlayer.src='{{ sound_file_prefix }}' + '/' + language + '/' + slug + extension;
     audioPlayer.play();
 }
 
@@ -181,7 +207,7 @@ function showSlugs() {
 }
 
 showSlugsCheckbox.change(showSlugs);
-
+languageSelect.change(function () { changeLanguage(languageSelect.val()); });
 
 $(document).ready(function() {
     sentenceBuilderTextbox.tagit({
@@ -195,6 +221,7 @@ $(document).ready(function() {
             }
         }
     });
+    changeLanguage(languageSelect.val());
 });
 
 audioPlayer.addEventListener('ended', speakNextQueue);

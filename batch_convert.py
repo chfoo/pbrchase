@@ -4,7 +4,7 @@ import os.path
 
 
 def main():
-    for filename in glob.glob('*.wav'):
+    for filename in glob.glob('sounds/*/*.wav'):
         output_filename = os.path.splitext(filename)[0] + '.ogg'
         subprocess.check_call(['sox', filename, output_filename])
 
