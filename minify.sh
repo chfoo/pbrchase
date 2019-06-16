@@ -1,6 +1,6 @@
 #!/bin/sh
 
-html-minifier --collapse-inline-tag-whitespace \
+html-minifier \
     --collapse-whitespace \
     --max-line-length 120 \
     --minify-css true \
