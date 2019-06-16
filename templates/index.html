@@ -166,7 +166,7 @@ function changeLanguage(newLanguage) {
 }
 
 function playTrack(slug) {
-    audioPlayer.src='{{ sound_file_prefix }}' + '/' + language + '/' + slug + extension;
+    audioPlayer.src='{{ sound_file_prefix }}' + language + '/' + slug + extension;
     audioPlayer.play();
 }
 
