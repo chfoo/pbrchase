@@ -82,6 +82,7 @@ def new_track_infos():
             label_es = row[3] or None
             label_fr = row[4] or None
             label_it = row[5] or None
+            label_jp = row[6] or None
 
             if slug.startswith('pk'):
                 pokemon_number = int(slug[2:5])
@@ -97,6 +98,7 @@ def new_track_infos():
                         'es': label_es,
                         'fr': label_fr,
                         'it': label_it,
+                        'jp': label_jp,
                     }))
             else:
                 print('Ignored', slug, file=sys.stderr)
