@@ -74,6 +74,7 @@ html, body {
     <option value="es">Spanish</option>
     <option value="fr">French</option>
     <option value="it">Italian</option>
+    <option value="jp">Japanese</option>
 </select>
 
 <p><a href="https://github.com/chfoo/pbrchase/issues">Report mistakes / submit transcriptions</a>, <a href="https://github.com/chfoo/pbrchase">Source code</a></p>
@@ -93,6 +94,7 @@ html, body {
             <span class="trackLabel-es">{{ labels.get('es') or '{}⧚{}⧛'.format('es', labels.get('en') or slug) }}</span>
             <span class="trackLabel-fr">{{ labels.get('fr') or '{}⧚{}⧛'.format('fr', labels.get('en') or slug) }}</span>
             <span class="trackLabel-it">{{ labels.get('it') or '{}⧚{}⧛'.format('it', labels.get('en') or slug) }}</span>
+            <span class="trackLabel-jp">{{ labels.get('jp') or '{}⧚{}⧛'.format('jp', labels.get('en') or slug) }}</span>
             <span class="trackSlug hidden">{{ slug }}</span>
         </td>
     </tr>
@@ -160,7 +162,7 @@ var labelsMap = {
 function changeLanguage(newLanguage) {
     language = newLanguage;
 
-    ['en', 'de', 'es', 'fr', 'it'].forEach(function (item, index) {
+    ['en', 'de', 'es', 'fr', 'it', 'jp'].forEach(function (item, index) {
         $('.trackLabel-' + item).css('display', item == language ? 'block' : 'none');
     });
 }
