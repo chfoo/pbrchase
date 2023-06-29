@@ -1,6 +1,8 @@
 #!/bin/sh
 
-html-minifier \
+# https://www.npmjs.com/package/html-minifier
+
+./node_modules/.bin/html-minifier \
     --collapse-whitespace \
     --max-line-length 120 \
     --minify-css true \

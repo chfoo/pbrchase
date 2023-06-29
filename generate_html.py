@@ -19,8 +19,8 @@ def main():
 
     env = Environment(
         loader=FileSystemLoader('templates'),
-        autoescape=True,
-        extensions=['jinja2.ext.autoescape'],
+        # autoescape=True,
+        # extensions=['jinja2.ext.autoescape'],
         trim_blocks=True,
         lstrip_blocks=True,
     )

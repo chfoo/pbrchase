@@ -1,9 +1,20 @@
+# backup files
 *~
 
+# IDEs
+pbrsoundboard.iml
 .idea/
 .vscode/
 
+# data files
 sounds/
+PLAYER_JIKKYO/
 
+# npm
+node_modules/
+package.json
+package-lock.json
 
-
+# output
+out.html
+out.min.html

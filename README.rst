@@ -39,7 +39,7 @@ To build the HTML file:
 Credits
 =======
 
-Copyright 2015,2019,2020-2022 Christopher Foo and contributors. Licensed under the MIT license.
+Copyright 2015,2019-2023 Christopher Foo and contributors. Licensed under the MIT license.
 
 Contains content from
 
